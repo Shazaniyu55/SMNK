@@ -148,7 +148,7 @@ export default function Footer() {
               gap: 1,
             }}
           >
-            <CardContent>
+            {/* <CardContent>
               <Typography
                 level="body1"
                 sx={{
@@ -167,7 +167,7 @@ export default function Footer() {
               <Typography level="body1" sx={{ color: "black", mb: 0.5 }}>
                 Phone: 09048164462
               </Typography>
-            </CardContent>
+            </CardContent> */}
           </Card>
 
           <List
@@ -185,9 +185,9 @@ export default function Footer() {
                       router.push("/about-us");
                     }}
                   >
-                    <Typography level="body2" sx={{ color: "black" }}>
+                    {/* <Typography level="body2" sx={{ color: "black" }}>
                       About SMNK
-                    </Typography>
+                    </Typography> */}
                   </ListItemButton>
                 </ListItem>
                 <ListItem>
@@ -196,9 +196,9 @@ export default function Footer() {
                       router.push("/vision");
                     }}
                   >
-                    <Typography level="body2" sx={{ color: "black" }}>
+                    {/* <Typography level="body2" sx={{ color: "black" }}>
                       Our Vision
-                    </Typography>
+                    </Typography> */}
                   </ListItemButton>
                 </ListItem>
                 <ListItem>
@@ -207,9 +207,9 @@ export default function Footer() {
                       router.push("/mission");
                     }}
                   >
-                    <Typography level="body2" sx={{ color: "black" }}>
+                    {/* <Typography level="body2" sx={{ color: "black" }}>
                       Our Mission
-                    </Typography>
+                    </Typography> */}
                   </ListItemButton>
                 </ListItem>
                 <ListItem>
@@ -218,9 +218,9 @@ export default function Footer() {
                       router.push("/purpose");
                     }}
                   >
-                    <Typography level="body2" sx={{ color: "black" }}>
+                    {/* <Typography level="body2" sx={{ color: "black" }}>
                       Our Purpose
-                    </Typography>
+                    </Typography> */}
                   </ListItemButton>
                 </ListItem>
                 <ListItem>
@@ -229,9 +229,9 @@ export default function Footer() {
                       router.push("/team");
                     }}
                   >
-                    <Typography level="body2" sx={{ color: "black" }}>
+                    {/* <Typography level="body2" sx={{ color: "black" }}>
                       Our Team
-                    </Typography>
+                    </Typography> */}
                   </ListItemButton>
                 </ListItem>
               </List>
@@ -249,9 +249,9 @@ export default function Footer() {
                       router.push("/services");
                     }}
                   >
-                    <Typography level="body2" sx={{ color: "black" }}>
+                    {/* <Typography level="body2" sx={{ color: "black" }}>
                       Services
-                    </Typography>
+                    </Typography> */}
                   </ListItemButton>
                 </ListItem>
                 {/* <ListItem>
@@ -263,9 +263,9 @@ export default function Footer() {
                       router.push("/jobs");
                     }}
                   >
-                    <Typography level="body2" sx={{ color: "black" }}>
+                    {/* <Typography level="body2" sx={{ color: "black" }}>
                       Jobs
-                    </Typography>
+                    </Typography> */}
                   </ListItemButton>
                 </ListItem>
                 <ListItem>
@@ -274,9 +274,9 @@ export default function Footer() {
                       router.push("/we-are-the-best");
                     }}
                   >
-                    <Typography level="body2" sx={{ color: "black" }}>
+                    {/* <Typography level="body2" sx={{ color: "black" }}>
                       Why you should choose SMNK
-                    </Typography>
+                    </Typography> */}
                   </ListItemButton>
                 </ListItem>
                 <ListItem>
@@ -285,9 +285,9 @@ export default function Footer() {
                       router.push("/how-to-find-artisans");
                     }}
                   >
-                    <Typography level="body2" sx={{ color: "black" }}>
+                    {/* <Typography level="body2" sx={{ color: "black" }}>
                       How to find Professionals/Artisans
-                    </Typography>
+                    </Typography> */}
                   </ListItemButton>
                 </ListItem>
               </List>
@@ -305,7 +305,7 @@ export default function Footer() {
             gap: 2,
           }}
         >
-          <Typography
+          {/* <Typography
             level="body2"
             sx={{ color: "black" }}
           >{`Services(${totalNumberOfServices})`}</Typography>
@@ -320,11 +320,11 @@ export default function Footer() {
           <Typography
             level="body2"
             sx={{ color: "black" }}
-          >{`Clients(${totalNumberOfClients})`}</Typography>
+          >{`Clients(${totalNumberOfClients})`}</Typography> */}
         </Box>
         <Divider sx={{ my: 2 }} />
         <Box>
-          <Typography
+          {/* <Typography
             level="body2"
             sx={{ color: "black" }}
             startDecorator={
@@ -334,12 +334,12 @@ export default function Footer() {
             }
           >
             SMNK Nig Ltd
-          </Typography>
+          </Typography> */}
           <Divider sx={{ my: 2 }} />
           <Box display={"flex"} alignItems={"center"} maxWidth={"100%"}>
-            <Typography level="body3" sx={{ ml: "irem", color: "black" }}>
+            {/* <Typography level="body3" sx={{ ml: "irem", color: "black" }}>
               Copyright {new Date().getFullYear()}
-            </Typography>
+            </Typography> */}
           </Box>
         </Box>
       </Sheet>
